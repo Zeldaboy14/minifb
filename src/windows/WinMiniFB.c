@@ -8,7 +8,8 @@
 #include <stdlib.h>
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define WANT_DPI_AWARENESS 1
+// Don't enable this! DPI is screwed up when using this - Zeldaboy14
+//#define WANT_DPI_AWARENESS 1
 #ifdef MINIFB_NO_DPI_AWARENESS
 	#undef WANT_DPI_AWARENESS
 #endif
